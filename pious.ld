@@ -1,8 +1,6 @@
 /* Linker script derived from http://wiki.osdev.org/Linker_Scripts */
-/*
 ENTRY(_start)
 STARTUP(objs/start.o)
- */
 
 SECTIONS
 {
