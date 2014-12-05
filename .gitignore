@@ -1,0 +1,10 @@
+tags
+*.o
+*.d
+*.elf
+*.img
+build/*
+objs/*
+
+.*.sw?
+*.[chs].bak
