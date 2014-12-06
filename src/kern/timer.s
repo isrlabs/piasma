@@ -14,7 +14,6 @@
 Timestamp:
 	push	{lr}
 	ldr	r0,	=0x20003000
-	bl	TimerAddress
 	ldrd	r0,	r1,	[r0,#4]
 	pop	{pc}
 
